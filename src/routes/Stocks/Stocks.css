@@ -2,4 +2,55 @@
     background: #679aff;
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
+}
+
+.stocks {
+    background: #679aff;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.list-stock {
+    background: whitesmoke;
+    border-radius: 20px;
+    list-style: none;
+    width: 90%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .2s ease;
+}
+
+.list-stock:hover, .list-stock h2:hover {
+    background: rgb(226, 238, 231);
+}
+
+.list-stock:active, .list-stock h2:active {
+    background: rgb(208, 226, 215);
+}
+
+.list-stock h2 {
+    background: transparent;
+    color: black;
+    padding-left: 40px;
+    font-weight: 200;
+    font-size: 2.3rem;
+    transition: .2s ease-in-out;
+}
+
+.tweet-count {
+    background: rgb(137, 251, 255);
+    color: black;
+    border: 1px solid rgb(137, 251, 255);
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
 }

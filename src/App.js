@@ -6,8 +6,13 @@ import Stocks from './routes/Stocks/Stocks';
 
 class App extends React.Component {
   state = {
+    currentStock: null,
     stockText: '',
     saved: [],
+  }
+  activateStock = (currentStock) => {
+    console.log(currentStock)
+    this.setState({ currentStock })
   }
   addStock = (event) => {
     event.preventDefault()
@@ -15,6 +20,7 @@ class App extends React.Component {
     const { stockText, saved } = this.state
     let stocks = stockText.split(/[\s,]+/)
     stocks.forEach(stock => stock.trim())
+    stocks = stocks.map(stock => stock.toUpperCase())
     stocks.forEach(stock => saved.push(stock))
     this.setState({ saved, stockText: '' })
   }
@@ -41,7 +47,10 @@ class App extends React.Component {
           saved={saved}
           stockText={stockText}
         />
-        <Stocks />
+        <Stocks 
+          activateStock={this.activateStock}
+          stocks={saved} 
+        />
         <section className='col col-3'>
           col-3
         </section>

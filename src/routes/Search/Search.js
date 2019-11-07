@@ -13,7 +13,7 @@ class Search extends React.Component {
         return (
             <section className='col col-1'>
                 <form onSubmit={(e) => this.props.addStock(e)}>      
-                    <input onChange={(e) => this.props.changeText(e)} value={stockText} placeholder='$AAPL, $BABA, $BAC' name='stock-search' id='stock-search' />    
+                    <input onChange={(e) => this.props.changeText(e)} value={stockText} placeholder='AAPL, BABA, BAC' name='stock-search' id='stock-search' />    
                     <button>Add</button>
                     <label for='stock-search'>Search For A Stock By Its Symbol <br /> Or Search Multiple Stocks Separated By Commas</label>
                 </form>
