@@ -1,0 +1,5 @@
+.col-2 {
+    background: #679aff;
+    display: flex;
+    flex-direction: column;
+}
