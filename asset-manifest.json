@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/stocktwits-client/static/css/main.2d26cf09.chunk.css",
+    "main.js": "/stocktwits-client/static/js/main.40a11669.chunk.js",
+    "main.js.map": "/stocktwits-client/static/js/main.40a11669.chunk.js.map",
+    "runtime-main.js": "/stocktwits-client/static/js/runtime-main.d3d0f6ea.js",
+    "runtime-main.js.map": "/stocktwits-client/static/js/runtime-main.d3d0f6ea.js.map",
+    "static/js/2.8fec30bb.chunk.js": "/stocktwits-client/static/js/2.8fec30bb.chunk.js",
+    "static/js/2.8fec30bb.chunk.js.map": "/stocktwits-client/static/js/2.8fec30bb.chunk.js.map",
+    "index.html": "/stocktwits-client/index.html",
+    "precache-manifest.af37eb87272c5f73be47219eb44afa60.js": "/stocktwits-client/precache-manifest.af37eb87272c5f73be47219eb44afa60.js",
+    "service-worker.js": "/stocktwits-client/service-worker.js",
+    "static/css/main.2d26cf09.chunk.css.map": "/stocktwits-client/static/css/main.2d26cf09.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3d0f6ea.js",
+    "static/js/2.8fec30bb.chunk.js",
+    "static/css/main.2d26cf09.chunk.css",
+    "static/js/main.40a11669.chunk.js"
+  ]
+}
