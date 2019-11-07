@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Search from './routes/Search/Search';
 import Stocks from './routes/Stocks/Stocks';
+import Tweets from './routes/Tweets/Tweets';
 
 class App extends React.Component {
   state = {
@@ -51,9 +51,7 @@ class App extends React.Component {
           activateStock={this.activateStock}
           stocks={saved} 
         />
-        <section className='col col-3'>
-          col-3
-        </section>
+        <Tweets />
       </div>
     )
   }

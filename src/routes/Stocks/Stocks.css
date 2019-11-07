@@ -5,6 +5,10 @@
     padding-top: 30px;
 }
 
+.col-2 h2 {
+    background: #679aff;
+}
+
 .stocks {
     background: #679aff;
     height: 70vh;

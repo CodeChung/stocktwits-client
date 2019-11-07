@@ -17,6 +17,7 @@ class Stocks extends React.Component {
         )
         return (
             <section className='col col-2'>
+                <h2>Saved Stocks</h2>
                 <ul className='stocks'>
                     {stocksList}
                 </ul>
