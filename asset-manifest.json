@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/stocktwits-client/static/css/main.678b1c54.chunk.css",
-    "main.js": "/stocktwits-client/static/js/main.f00cadba.chunk.js",
-    "main.js.map": "/stocktwits-client/static/js/main.f00cadba.chunk.js.map",
+    "main.css": "/stocktwits-client/static/css/main.78d9fb57.chunk.css",
+    "main.js": "/stocktwits-client/static/js/main.8417ce4c.chunk.js",
+    "main.js.map": "/stocktwits-client/static/js/main.8417ce4c.chunk.js.map",
     "runtime-main.js": "/stocktwits-client/static/js/runtime-main.d3d0f6ea.js",
     "runtime-main.js.map": "/stocktwits-client/static/js/runtime-main.d3d0f6ea.js.map",
-    "static/js/2.8fec30bb.chunk.js": "/stocktwits-client/static/js/2.8fec30bb.chunk.js",
-    "static/js/2.8fec30bb.chunk.js.map": "/stocktwits-client/static/js/2.8fec30bb.chunk.js.map",
+    "static/js/2.fb9b27ee.chunk.js": "/stocktwits-client/static/js/2.fb9b27ee.chunk.js",
+    "static/js/2.fb9b27ee.chunk.js.map": "/stocktwits-client/static/js/2.fb9b27ee.chunk.js.map",
     "index.html": "/stocktwits-client/index.html",
-    "precache-manifest.01d485d0e1451b47e37d98e2a9f72202.js": "/stocktwits-client/precache-manifest.01d485d0e1451b47e37d98e2a9f72202.js",
+    "precache-manifest.ead364d45cb40c12af350c3fd0610a4d.js": "/stocktwits-client/precache-manifest.ead364d45cb40c12af350c3fd0610a4d.js",
     "service-worker.js": "/stocktwits-client/service-worker.js",
-    "static/css/main.678b1c54.chunk.css.map": "/stocktwits-client/static/css/main.678b1c54.chunk.css.map"
+    "static/css/main.78d9fb57.chunk.css.map": "/stocktwits-client/static/css/main.78d9fb57.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.d3d0f6ea.js",
-    "static/js/2.8fec30bb.chunk.js",
-    "static/css/main.678b1c54.chunk.css",
-    "static/js/main.f00cadba.chunk.js"
+    "static/js/2.fb9b27ee.chunk.js",
+    "static/css/main.78d9fb57.chunk.css",
+    "static/js/main.8417ce4c.chunk.js"
   ]
 }
