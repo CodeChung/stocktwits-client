@@ -10,6 +10,8 @@
     background: whitesmoke;
     height: 100vh;
     overflow: scroll;
+    position: relative;
+    right: 20px;
 }
 
 .tweet-card {

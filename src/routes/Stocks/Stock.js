@@ -7,7 +7,7 @@ class Stock extends React.Component {
         error: false,
     }
     componentDidMount() {
-        const url = `https://api.stocktwits.com/api/2/streams/symbol/${this.props.stock}.json`
+        const url = `https://aqueous-anchorage-80602.herokuapp.com/${this.props.stock}`
         fetch(url)
             .then(res => res.json())
             .then(res => this.setState({ tweetCount: res['messages'].length }))

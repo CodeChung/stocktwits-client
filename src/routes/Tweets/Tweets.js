@@ -9,7 +9,7 @@ class Tweets extends React.Component {
     componentDidUpdate(prevProps) {
         if (this.props.stock !== prevProps.stock) {
             const tweets = []
-            const url = `https://api.stocktwits.com/api/2/streams/symbol/${this.props.stock}.json`
+            const url = `https://aqueous-anchorage-80602.herokuapp.com/${this.props.stock}`
             fetch(url)
                 .then(res => res.json())
                 .then(res => {
@@ -24,28 +24,6 @@ class Tweets extends React.Component {
                     this.setState({ tweets })
                 })
                 .catch(res => this.setState({ error: res.message }))
-        }
-    }
-    componentDidMount() {
-        if (this.props.stock) {
-            const tweets = []
-            const url = `https://api.stocktwits.com/api/2/streams/symbol/${this.props.stock}.json`
-            fetch(url)
-                .then(res => res.json())
-                .then(res => {
-                    res['messages'].forEach(msg => {
-                        tweets.push({
-                            user: msg['user']['username'],
-                            message: msg['body'],
-                            date: msg['created_at'],
-                            pic: msg['user']['avatar_url'],
-                            symbol: this.props.stock,
-                        })
-                    })
-                })
-                .catch(res => this.setState({ error: res.message }))
-
-            this.setState({ tweets })
         }
     }
     render() {

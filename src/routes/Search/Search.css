@@ -70,6 +70,7 @@
     margin: 5px;
     background: rgb(179, 221, 255);
     border-radius: 3.8px;
+    width: 100%;
 }
 
 .stock-button {
