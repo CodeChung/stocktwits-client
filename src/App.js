@@ -11,7 +11,6 @@ class App extends React.Component {
     saved: [],
   }
   activateStock = (currentStock) => {
-    console.log(currentStock)
     this.setState({ currentStock })
   }
   addStock = (event) => {
@@ -35,7 +34,7 @@ class App extends React.Component {
     this.setState({ stockText: event.target.value })
   }
   render() {
-    const { saved, stockText } = this.state
+    const { currentStock, saved, stockText } = this.state
     return (
       <div className="App">
         <header className="App-header">
@@ -52,7 +51,7 @@ class App extends React.Component {
           activateStock={this.activateStock}
           stocks={saved} 
         />
-        <Tweets />
+        {<Tweets stock={currentStock} />}
       </div>
     )
   }

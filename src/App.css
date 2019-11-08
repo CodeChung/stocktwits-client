@@ -8,6 +8,8 @@
   display: flex;
   justify-content: space-between;
   color: whitesmoke;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .App-logo {

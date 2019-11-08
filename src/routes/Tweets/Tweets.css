@@ -5,3 +5,48 @@
     color: black;
     background: whitesmoke;
 }
+
+.col-3 ul {
+    background: whitesmoke;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.tweet-card {
+    border-radius: 5px;
+    border: 1px solid rgb(182, 246, 255);
+    background: white;
+    width: 400px;
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+}
+
+.tweet-card h3 {
+    background: white;
+}
+
+.tweet-card p {
+    background: white;
+    margin: 0 auto;
+    width: 95%;
+    overflow: scroll;
+}
+
+.tweet-header {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+.tweet-header img {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.tweet-date {
+    text-align: right;
+    background: white;
+    color: rgb(124, 124, 124);
+}
+

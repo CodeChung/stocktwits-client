@@ -16,7 +16,7 @@ class Stock extends React.Component {
     render() {
         const { stock } = this.props
         return (
-            <li key={stock} onClick={() => this.props.activateStock(stock)} className='list-stock'>
+            <li onClick={() => this.props.activateStock(stock)} className='list-stock'>
                 <h2>{stock}</h2>
                 <div className='tweet-count'>
                     {this.state.tweetCount}

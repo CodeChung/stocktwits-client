@@ -5,7 +5,7 @@ import Stock from './Stock'
 class Stocks extends React.Component {
     render() {
         const { stocks } =  this.props
-        const stocksList = stocks.map(stock => <Stock stock={stock} activateStock={this.props.activateStock} />
+        const stocksList = stocks.map(stock => <Stock key={stock} stock={stock} activateStock={this.props.activateStock} />
         )
         return (
             <section className='col col-2'>
