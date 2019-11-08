@@ -17,7 +17,7 @@ class Search extends React.Component {
                         <input onChange={(e) => this.props.changeText(e)} value={stockText} placeholder='AAPL, BABA, BAC' name='stock-search' id='stock-search' />    
                         <button>Add</button>
                     </div>  
-                    <label htmlFor='stock-search'>Search For A Stock By Its Symbol <br /> Or Search Multiple Stocks Separated By Commas</label>
+                    <label htmlFor='stock-search'>Search For A Stock By Its Symbol Or Search Multiple Stocks Separated By Commas</label>
                 </form>
                 <div className='saved-stocks'>
                     <h2>My Stocks</h2>

@@ -8,8 +8,7 @@
   display: flex;
   justify-content: space-between;
   color: whitesmoke;
-  height: 100vh;
-  overflow: hidden;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -34,7 +33,7 @@
 
 header {
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 50px;
 }
 
@@ -50,5 +49,12 @@ header {
     height: 100vh;
   }  
 }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+@media (min-width:1025px) { 
+  .App {
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+@media (min-width:1281px) { 
+}
