@@ -1,19 +1,11 @@
 import React from 'react'
 import './Stocks.css'
+import Stock from './Stock'
 
 class Stocks extends React.Component {
-    componentDidMount() {
-        
-    }
     render() {
         const { stocks } =  this.props
-        const stocksList = stocks.map(stock => 
-            <li onClick={() => this.props.activateStock(stock)} key={stock} className='list-stock'>
-                <h2>{stock}</h2>
-                <div className='tweet-count'>
-                    1
-                </div>
-            </li>
+        const stocksList = stocks.map(stock => <Stock stock={stock} activateStock={this.props.activateStock} />
         )
         return (
             <section className='col col-2'>

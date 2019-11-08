@@ -20,6 +20,7 @@ class App extends React.Component {
     const { stockText, saved } = this.state
     let stocks = stockText.split(/[\s,]+/)
     stocks.forEach(stock => stock.trim())
+    stocks = stocks.filter(stock => stock)
     stocks = stocks.map(stock => stock.toUpperCase())
     stocks.forEach(stock => saved.push(stock))
     this.setState({ saved, stockText: '' })
